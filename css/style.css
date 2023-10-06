@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Comfortaa:wght@300&family=Fredoka:wght@500&family=Mooli&family=Nunito:wght@400;500&family=Quicksand:wght@400;500;600;700&family=Roboto+Mono:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ADLaM Display", cursive;
+  font-family: "Comfortaa", cursive;
+  font-family: "Fredoka", sans-serif;
+  font-family: "Mooli", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background: rgb(30, 40, 50);
+}
+
+.container {
+  width: 90%;
+  max-width: 470px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 40px 35px;
+  background: linear-gradient(135deg, #bfcde9, #fefcfd);
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 32px;
+}
+
+.weather_icon {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 25px;
+  margin-top: -3px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+  color: red;
+  font-weight: 500;
+}
