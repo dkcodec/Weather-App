@@ -1,2 +1,2 @@
 # Weather-App
-Responsive Weather app. Work with APIs (OpenWeatherApi)
+Weather app, work with APIs (OpenWeatherApi)
