@@ -26,7 +26,7 @@ async function findWeather(city) {
       Math.round(data.wind.speed) + "km/h";
 
     if (data.weather[0].main == "Clouds") {
-      weatherIcon.src = "/img/cloudy.png";
+      weatherIcon.src = "dkcodec.github.io/Weather-App/img/cloudy.png";
     } else if (data.weather[0].main == "Mist") {
       weatherIcon.src = "/img/mist.png";
     } else if (data.weather[0].main == "Clear") {
