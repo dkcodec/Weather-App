@@ -86,5 +86,4 @@
         <hr />
       </div>
     </div>
-    <style></style>
     </body>
